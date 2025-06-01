@@ -174,13 +174,13 @@ select {
 }
 @media all and (min-width:900px) {
     .container{
-        margin: 15% 30.5%;
+        margin: 5% 30.5%;
     
     }   
 }
 @media all and (min-width:1280px) {
     .container{
-        margin: 15% 35.5%;
+        margin: 5% 35.5%;
     
     }   
 }
