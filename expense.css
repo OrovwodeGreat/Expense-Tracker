@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    /* background-color: white; */
+    margin: 15% 4.5%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.add-new h3 {
+    font-weight: 500;
+}
+
+.add-new,
+.info-wrap {
+    background-color: white;
+    margin: 1rem 0.3rem;
+    padding: 0.4rem;
+}
+
+.add-new {
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+
+.add-new .info-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(132, 132, 132);
+    border-radius: 0.1rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    font-size: 0.7rem;
+}
+
+input[type="text"] {
+    width: 80px;
+    outline: none;
+    border: none;
+}
+
+input[type="number"] {
+    width: 80px;
+    outline: none;
+    border: none;
+}
+
+select {
+    width: 80px;
+    outline: none;
+    border: none;
+    color: rgb(132, 132, 132);
+}
+
+.add {
+    width: 100%;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+
+    &:hover {
+        background-color: rgb(64, 167, 207);
+    }
+}
+
+/* Add new transcations end */
+
+
+/* Transactions start */
+.transactions {
+    padding: 0.9rem 0.6rem;
+    margin: 1rem 0.3rem;
+    background-color: white;
+    border-radius: 0.7rem;
+}
+
+.trnsctSctn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions h3 {
+    font-weight: 500;
+    margin-bottom:0.5rem;
+}
+
+.expenseTrack{
+    color: red;
+}
+.spanStyle{
+    text-decoration: line-through;
+}
+
+.incomeTrack{
+    color: green;
+}
+
+
+.deleteBtn{
+    height: 20px;
+    vertical-align: baseline;
+    align-self: center;
+}
+
+.horizontal-line{
+    margin-top: 0.5rem;
+}
+/* Transactions end */
+
+
+/* Summary start */
+#summary {
+    padding: 0.9rem 0.6rem;
+    margin: 1rem 0.3rem;
+    background-color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#summary h4{
+    font-weight: 400;
+}
+
+/* Summary End */
+
+
+/* Media Query */
+@media all and (min-width:350px) {
+    .container{
+        margin: 15% 8.5%;
+    }   
+}
+
+@media all and (min-width:400px) {
+    .container{
+        margin: 15% 12.5%;
+    }   
+}
+
+@media all and (min-width:576px) {
+    .container{
+        margin: 15% 15.5%;
+    
+    }   
+}
+@media all and (min-width:668px) {
+    .container{
+        margin: 15% 20.5%;
+    
+    }   
+}
+@media all and (min-width:768px) {
+    .container{
+        margin: 15% 25.5%;
+    
+    }   
+}
+@media all and (min-width:900px) {
+    .container{
+        margin: 15% 30.5%;
+    
+    }   
+}
+@media all and (min-width:1280px) {
+    .container{
+        margin: 15% 35.5%;
+    
+    }   
+}
